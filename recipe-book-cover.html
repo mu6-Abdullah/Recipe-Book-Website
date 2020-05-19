@@ -3,31 +3,56 @@
         <title>Abdullah's recipe Book</title>
     </head>
     <body>
-        
         <link rel = "stylesheet" href = "recipe-book-style.css">
         <div class="header">
-            <a href= "#default" class = "logo">Abdullah's New Recipe Book</a>
+            <a href= "recipe-book-cover.html" class = "logo">Abdullah's Recipe Book</a>
             <div class = "header-right">
-                <a class= "active" href = "recipe-book-cover-html">Home</a>
-                <a href = "#contact">Contact</a>
+                <a class= "active" href = "recipe-book-cover.html">About Me</a>
             </div>
         </div>
-        
-        <h1>Abdullah's Recipe Book</h1>
-        <div class = "main-image">
-            <img src="food-background.jpg"> 
+        <div class = "sig-holder">
+            <p id ="signature"></p>
         </div>
+        <div class= "main-body-container">
+            <div class = "main-body">
+                <div class = "main-image">
+                <!-- <img style = "width: 100%" src="food-background.jpg"> -->
+                </div>
                
-        <p class ="signature"> - by Muhammad Abdullah</p>
-        <h2 class = "contents">Contents:</h2>
-        <ol>
-            <li><a href="cookies.html">Recipe #1: Cookies</a></li>
-            <li><a href="PBJ.html">Recipe #2: PB&J Sandwich</a></li>
-            <li><a href="omelette.html">Recipe #3: Omelette</a></li>
-        </ol>
+                <div class = "page-contents">
+                    <h2 class = "contents-title">Contents:</h2>
+                    <ol class = "recipe-list">
+                        <li><a href="cookies.html">Recipe #1: Cookies</a></li>
+                        <li><a href="PBJ.html">Recipe #2: PB&J Sandwich</a></li>
+                        <li><a href="omelette.html">Recipe #3: Omelette</a></li>
+                    </ol>
+                </div>
         
-        <div class = "footer">
-            Footer
+                <div class = "top-footer">
+                Why did the pasta chef get arrested?
+                </div>
+                <div class = "low-footer">
+                Because of Baking and Entering
+                </div>
+
+                <script>
+                    //Signature Script
+                    var increment = 0;
+                    var sig = '- By Muhammad Abdullah'
+                    var speed = 100;
+                    var complete  = false;
+                    typeWriter();
+                    function typeWriter(){
+                        if(increment <sig.length){
+                            document.getElementById('signature').innerHTML += sig.charAt(increment);
+                    
+                            increment++;
+                            setTimeout(typeWriter, speed);
+                        }
+                    }
+
+                </script>
+            </div>
         </div>
     </body>
     
