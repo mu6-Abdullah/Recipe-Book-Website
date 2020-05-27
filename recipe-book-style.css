@@ -7,10 +7,6 @@ body{
 .header{
     overflow: hidden;
     background: white;
-    /*background: -moz-linear-gradient(left, #CE6821 0%, #FFB319 100%, #CE6821 100%);
-    background: -webkit-linear-gradient(left, #CE6821 0%, #FFB319 100%, #CE6821 100%);
-    background: linear-gradient(to right, #CE6821 0%, #FFB319 100%, #CE6821 100%);
-    */
     font-family: monospace;
     font-size: 40px;
     color: #FFB319;
@@ -23,13 +19,12 @@ body{
     color: #263F5B;
     text-align: center;
     padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
+    text-decoration: none; 
+    line-height: 20px;
     border-radius: 4px;
 }
 .header a.logo{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 
 }
@@ -39,6 +34,7 @@ body{
     font-weight: bold;
 }
 .header a.active {
+    font-size: 20px;
     background-color: #263F5B;
     color:white;
 }
@@ -55,11 +51,7 @@ body{
         float: none;
     }
 }
-.recipe-heading{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(165, 85, 28);
-}
+
 
 table{
     font-size: 16px;
@@ -95,14 +87,20 @@ table{
     background-color: #324E6E;
     text-align: center;    
 }
-/* HOME PAGE CSS */
+
 .main-body-container{
     text-align:center;
 }
 .main-body{
     display: inline-block;
-    width: 80%;
+    width: 90%;
     background-color: #263F5B;
+    color:white;
+}
+/* HOME PAGE CSS */
+
+.main-image{
+    width: 100%;
 }
 .contents-title{
     color: #F1DBC4;
@@ -117,10 +115,11 @@ table{
     margin-bottom:0px;
 }
 div.sig-holder{
-    height: 10%;
+    height: 5%;
     position: relative;
     width: 100%;
     background-color:#263F5B;
+    text-align:center;
 }
 .sig-holder p {
     color: #F1DBC4;
@@ -128,12 +127,30 @@ div.sig-holder{
     font-family: Arial;
     font-style: italic;
     font-weight: 700;
-    font-size: 24px;
-
+    font-size: 15px;
+    height: 5%;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 /*NON-HOME PAGE CSS*/
 .return-home-link{
     font-family: Cambria;
     font-weight: 1000;
     font-size: 20px;
+}
+.recipe-first-content li{
+    color:white;
+    text-align:left;
+}
+.non-main-table{
+    color: white;
+}
+.recipe-instructions{
+    text-align: left;
+}
+.recipe-heading{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 85, 28);
+    text-align: left;
 }
