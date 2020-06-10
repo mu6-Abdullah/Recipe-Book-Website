@@ -1,4 +1,5 @@
 /*General CSS*/
+
 *{ box-sizing: border-box;}
 body{
     margin: 0;
@@ -71,7 +72,7 @@ table{
     position: relative;
     height: 10%;
     width: 100%;
-    background:#263F5B;
+    background:#1E3248;
     color: #F1DBC4;
     text-align: center;
     margin-top: 0px;
@@ -84,7 +85,7 @@ table{
     bottom: 0;
     height: 30%;
     width: 100%;
-    background-color: #324E6E;
+    background-color: #162536;
     text-align: center;    
 }
 
