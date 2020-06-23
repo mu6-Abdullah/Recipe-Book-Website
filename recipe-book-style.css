@@ -57,14 +57,11 @@ body{
 table{
     font-size: 16px;
 }
-.recipe-list li{
+.post-container{
     color: #F1DBC4;
     font-family: Cambria;
     font-size: 22px;
     text-align: left;
-}
-.recipe-list li a{
-    color:white;
 }
 
 .top-footer{
@@ -98,6 +95,10 @@ table{
     background-color: #263F5B;
     color:white;
 }
+
+
+
+
 /* HOME PAGE CSS */
 
 .main-image{
@@ -133,6 +134,13 @@ div.sig-holder{
     margin-top: 10px;
     margin-bottom: 5px;
 }
+.post-spacing{
+    height:5%;
+    background-color: #1E3248;
+}
+
+
+
 /*NON-HOME PAGE CSS*/
 .return-home-link{
     font-family: Cambria;
